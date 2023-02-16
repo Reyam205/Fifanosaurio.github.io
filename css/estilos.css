@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+*::-webkit-scrollbar{
+    background-color: white;
+    width: 5px;
+}
+*::-webkit-scrollbar-thumb{
+    background-color: rgba(128, 128, 128, 0.4);
+    border-radius:10px ;
+}
+header{
+    height: 90px;
+    width: 100%;
+    background-color: black;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+.menubi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 0.2% 10%;
+}
+.logo img{
+    width: 75px;
+    height: 75px;
+    margin: 5px 60px 5px 60px;
+    border-radius: 50%;
+}
+.mainmenu{
+    margin-right: 40px;
+    min-width:500px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+}
+.head{
+    width: 390px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+ }
+ .head li{
+    color: white;
+    display: inline-block;
+    align-items: center;
+    margin: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+ }
+ .head li:hover{
+    color: rgb(0, 197, 154);
+ }
+
+ .barmenu{
+    width: 35px;
+    height: 25px;
+
+ }
+.but{
+    opacity: 0;
+    border-style: none;
+    background-color: black;
+    cursor: pointer;
+}
+ .imgmenu{
+    display:flex;
+    align-items: center;
+ }
+
+ section{
+    background-color: none;
+    /*padding: 30px 150px;*/
+}
+.portada{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    background-color: black;
+    background-image: url('../img/pattern.png');
+    background-position:center;
+    background-size:700px ;
+}
+.letter{
+    height: 220px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.letter:hover{
+    cursor:default;
+}
+.letter .tit::selection{
+    background-color: none;
+    color:white;
+}
+.tit {
+    color:white;
+    font-weight: 800;
+    font-size: 100px;
+}
+.div{
+    height: 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+.sub{
+    margin-top: 30px;
+    text-transform:uppercase ;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+.tiendas a{
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+}
+.tiendas{
+    padding: 5%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 80px;
+}
+.contenedor{
+    padding: 1%;
+    height: 500px;
+    width: 350px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.contenedor:hover{
+    cursor: pointer;
+}
+.cont1{
+    height: 100%;
+    margin-top:10px ;
+    padding: 20px;
+}
+.img-1{
+    margin-top: 10px;
+    width: 95%;
+    height: 400px;
+    border-radius: 5%;
+}
+
+.productos{
+    padding: 5%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 80px;
+}
+.prod{
+    padding: 1%;
+    height: 500px;
+    width: 350px;
+    border-radius: 20px;
+    border-style: dotted;
+    border-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.prod:hover{
+    cursor: pointer;
+}
+.img-2{
+    height: 500px;
+    width: 340px;
+}
+.imn{
+    height: 450px;
+    width: 300px;
+}
+.buy{
+    width: 120px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buy:hover{
+    background-color: white;
+    color: black;
+}
+footer{
+    margin-top: 100px;
+}
+.fin{
+    background-color: black ;
+    height: 80px;
+    color: white;
+}
+
+.list{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.list li{
+    display: inline;
+}
+.list li a{
+    text-decoration: none;
+    color: white;
+}
+.list li a:hover{
+    color: aquamarine;
+    cursor: pointer;
+}
