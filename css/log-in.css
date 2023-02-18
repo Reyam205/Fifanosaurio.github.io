@@ -33,7 +33,7 @@ body{
     height: 40px;
     background-color: #1a73e8;
     border: none;
-    border-radius: 3px;
+    border-radius: 7px;
     padding: 3px;
 }
 
@@ -71,7 +71,7 @@ body{
     height: 40px;
     background-color: rgb(230, 230, 230);
     border: none;
-    border-radius: 3px;
+    border-radius: 7px;
     padding: 3px;
 }
 
