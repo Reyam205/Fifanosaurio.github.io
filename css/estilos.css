@@ -230,11 +230,11 @@ footer{
 .list li{
     display: inline;
 }
-.list li a{
+a{
     text-decoration: none;
     color: white;
 }
-.list li a:hover{
+a:hover{
     color: aquamarine;
     cursor: pointer;
 }
